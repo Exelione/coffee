@@ -1,90 +1,35 @@
-#bannerSection {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 1, 2, 0.5)), to(rgba(1, 1, 2, 0.5))), url("/public/banner.jpg") 50%/cover;
-  background: linear-gradient(180deg, rgba(1, 1, 2, 0.5) 0%, rgba(1, 1, 2, 0.5) 100%), url("/public/banner.jpg") 50%/cover;
-}
-#bannerSection .container {
+.container {
   max-width: 1340px;
   margin: 0 auto;
   padding: 0 10px;
 }
-#bannerSection .banner {
+
+.features {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 147px 0 158px;
+  gap: 36px;
+  padding: 140px;
 }
-#bannerSection .banner .videoBtn {
-  cursor: pointer;
-  font: 400 16px var(--third-family), sans-serif;
-  text-transform: uppercase;
-  border: none;
-  background: transparent;
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  -ms-flex-item-align: end;
-      align-self: flex-end;
-  height: 109px;
-  width: 93px;
-}
-#bannerSection .banner .videoBtn::before {
-  position: absolute;
-  content: "";
-  top: 0;
-  left: 50%;
-  width: 66px;
-  height: 66px;
-  border: 2px solid #fff;
-  border-radius: 50px;
-  background: url("/public/Vector.svg") 50%/14px 18px no-repeat;
-  -webkit-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
-          transform: translateX(-50%);
-}
-#bannerSection .banner .videoBtn:hover {
-  color: #c99e71;
-  -webkit-transition: ease-in-out 0.3s;
-  transition: ease-in-out 0.3s;
-}
-#bannerSection .bannerInfo {
-  max-width: 529px;
-}
-#bannerSection .bannerInfo h2 {
+.features span {
   font-family: var(--second-family);
-  font-size: 72px;
-  line-height: 130%;
   font-weight: 400;
-}
-#bannerSection .bannerInfo p {
-  font-family: var(--font-family);
-  font-size: 20px;
-  line-height: 180%;
-  text-transform: capitalize;
-  opacity: 0.8;
-  font-weight: 500;
-  margin: 32px 0 64px;
-}
-#bannerSection .bannerInfo .btnPrymary {
-  cursor: pointer;
-  border: 0;
-  font-family: var(--third-family);
-  font-weight: 700;
-  font-size: 18px;
+  font-size: 24px;
   text-transform: uppercase;
-  padding: 24px 40px;
-  width: 202px;
-  height: 70px;
-  background: #c99e71;
+  color: #c99e71;
+  margin-right: 12px;
 }
-#bannerSection .bannerInfo .btnPrymary:hover {
-  background-color: #b87a37;
-  -webkit-transition: ease-in-out 0.3s;
-  transition: ease-in-out 0.3s;
+.features li {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+}
+.features img {
+  padding-top: 24px;
+  width: 366px;
+  height: 420px;
 }

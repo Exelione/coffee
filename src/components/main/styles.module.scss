@@ -1,92 +1,36 @@
-#bannerSection {
-    background: linear-gradient(180deg, rgba(1, 1, 2, 0.5) 0%, rgba(1, 1, 2, 0.5) 100%), url("/public/banner.jpg") 50% /cover;
-   
+.container {
+    max-width: 1340px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
 
-    .container {
-        max-width: 1340px;
-        margin: 0 auto;
-        padding: 0 10px;
+.features {
+    display: flex;
+    justify-content: space-between;
+    gap: 36px;
+    padding: 140px;
+    
+    span {
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 24px;
+        text-transform: uppercase;
+        color: #c99e71;
+        margin-right: 12px;
     }
 
-    .banner {
+    li {
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 24px;
+        color: #fff;
         
-        display: flex;
-        justify-content: space-between;
-        padding: 147px 0 158px;
-
-        .videoBtn {
-            cursor: pointer;
-            font: 400 16px var(--third-family), sans-serif;
-            text-transform: uppercase;
-            border: none;
-            background: transparent;
-            position: relative;
-            display: flex;
-            align-items: flex-end;
-            align-self: flex-end;
-            height: 109px;
-            width: 93px;
-            &::before{
-
-                position: absolute;
-                content: '';
-                top: 0;
-                left: 50%;
-                width: 66px;
-                height: 66px;
-                border: 2px solid #fff;
-                border-radius: 50px;
-                background: url('/public/Vector.svg') 50%/14px 18px no-repeat;
-                transform: translateX(-50%);
-                
-            }
-            &:hover{
-                color: #c99e71;
-                transition: ease-in-out .3s;
-            }
-        }
+        
     }
 
-    .bannerInfo {
-        max-width: 529px;
-        
-
-
-        h2 {
-            font-family: var(--second-family);
-            font-size: 72px;
-            line-height: 130%;
-            font-weight: 400;
-
-        }
-
-        p {
-            font-family: var(--font-family);
-            font-size: 20px;
-            line-height: 180%;
-            text-transform: capitalize;
-            opacity: .8;
-            font-weight: 500;
-            margin: 32px 0 64px
-        }
-
-        .btnPrymary {
-            cursor: pointer;
-            border: 0;
-            font-family: var(--third-family);
-            font-weight: 700;
-            font-size: 18px;
-            text-transform: uppercase;
-            padding: 24px 40px;
-            width: 202px;
-            height: 70px;
-            background: #c99e71;
-            &:hover{
-                background-color: #b87a37;
-                transition: ease-in-out .3s;
-            }
-        }
-
-
+    img {
+        padding-top: 24px;
+        width: 366px;
+        height: 420px;
     }
 }

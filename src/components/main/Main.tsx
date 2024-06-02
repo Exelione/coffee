@@ -1,22 +1,27 @@
+import { Banner } from '../banner/Banner.tsx';
 import styles from './styles.module.css';
 
 export const Main = () => {
   return (
-    <section id={styles.bannerSection}>
-      <div className={styles.container}>
-        <div className={styles.banner}>
-          <div className={styles.bannerInfo}>
-            <h2>
-              Enjoy Your
-              Morning Coffee.
-            </h2>
-            <p>The coofee is brewed by fist roasting the green coffee beans over hot coals in brazier. given to Opportunity</p>
-            <button className={styles.btnPrymary}>test coffee</button>
-          </div>
-          <button className={styles.videoBtn}>Play video</button>
-        </div>
-      </div>
-    </section>
+    <>
+    <Banner/>
+    <div className={styles.container}>
+      <ol className={styles.features}>
+        <li>
+          <span>01</span> Best Coffee Flavour
+          <img src='/features1.png' alt="featuresImg" />
+        </li>
+        <li>
+          <span>02</span> Place to get lost
+          <img src='/features2.png' alt="featuresImg" />
+        </li>
+        <li>
+          <span>03</span> Proper roesting
+          <img src='/features3.png' alt="featuresImg" />
+        </li>
+      </ol>
+    </div>
+    </>
   )
 }
 
