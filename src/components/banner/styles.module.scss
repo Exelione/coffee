@@ -1,5 +1,5 @@
 #bannerSection {
-    background: linear-gradient(180deg, rgba(1, 1, 2, 0.5) 0%, rgba(1, 1, 2, 0.5) 100%), url("/public/banner.jpg") 50% /cover;
+    background: linear-gradient(180deg, rgba(1, 1, 2, 0.5) 0%, rgba(1, 1, 2, 0.5) 100%), url("/banner.jpg") 50% /cover;
    
 
     .container {
@@ -82,7 +82,7 @@
             height: 70px;
             background: #c99e71;
             &:hover{
-                background-color: #b87a37;
+                background-color: #b98b5a;
                 transition: ease-in-out .3s;
             }
         }

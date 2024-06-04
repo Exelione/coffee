@@ -1,6 +1,6 @@
 #bannerSection {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 1, 2, 0.5)), to(rgba(1, 1, 2, 0.5))), url("/public/banner.jpg") 50%/cover;
-  background: linear-gradient(180deg, rgba(1, 1, 2, 0.5) 0%, rgba(1, 1, 2, 0.5) 100%), url("/public/banner.jpg") 50%/cover;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 1, 2, 0.5)), to(rgba(1, 1, 2, 0.5))), url("/banner.jpg") 50%/cover;
+  background: linear-gradient(180deg, rgba(1, 1, 2, 0.5) 0%, rgba(1, 1, 2, 0.5) 100%), url("/banner.jpg") 50%/cover;
 }
 #bannerSection .container {
   max-width: 1340px;
@@ -84,7 +84,7 @@
   background: #c99e71;
 }
 #bannerSection .bannerInfo .btnPrymary:hover {
-  background-color: #b87a37;
+  background-color: #b98b5a;
   -webkit-transition: ease-in-out 0.3s;
   transition: ease-in-out 0.3s;
 }

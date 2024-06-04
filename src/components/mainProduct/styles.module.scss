@@ -1,0 +1,164 @@
+.container {
+    max-width: 1340px;
+    margin: 0 auto;
+    padding: 0 10px;
+    flex-grow: 1;
+}
+
+.sectionWrapper {
+    display: flex;
+    flex-direction: column;
+    
+
+    .allProduct {
+        align-self: center;
+        padding: 20px 36px;
+        width: 252px;
+        height: 62px;
+        background: #c99e71;
+        font-family: var(--third-family);
+        font-weight: 700;
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #fff;
+        transition: ease-in-out .3s;
+        &:hover{
+            cursor: pointer;
+            background-color: #b98b5a;
+        }
+        margin-top: 56px;
+        margin-bottom: 140px;
+    }
+}
+
+.productSection {
+    margin-top: 140px;
+
+    .title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        margin-bottom: 56px;
+
+        h2 {
+            font-family: var(--font-family);
+            font-weight: 600;
+            font-size: 18px;
+            color: #c99e71;
+        }
+
+        h3 {
+            font-family: var(--second-family);
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 130%;
+            color: #fff;
+        }
+    }
+
+    .cardWrapper {
+        display: flex;
+        justify-content: space-between;
+        gap: 36px;
+
+        .productCard {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: #121315;
+            transition: ease-in-out .3s;
+            &:hover{
+                cursor: pointer;
+                transform: scale(1.05);
+                .coffeRait{
+                    display: none;
+                }
+                p{
+                    display: none;
+                }
+                button{
+                    display: flex;
+                }
+            }
+
+            .mainProductImg {
+                padding: 48px 48px 36px 48px;
+            }
+
+            .coffeRait {
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                margin-bottom: 20px;
+
+                h2 {
+                    font-family: var(--font-family);
+                    font-weight: 500;
+                    font-size: 16px;
+                    text-transform: uppercase;
+                    color: #c99e71;
+                }
+            }
+
+
+            h3 {
+                font-family: var(--second-family);
+                font-weight: 400;
+                font-size: 24px;
+                text-transform: uppercase;
+                color: #fff;
+
+            }
+
+            button {
+                margin: 38px auto 0;
+                display:none;
+                align-items: center;
+                justify-content:center;
+                text-transform: none;
+                border: 0;
+                gap: 12px;
+                width: 169px;
+                height: 48px;
+                background: #c99e71;
+                font-family: var(--font-family);
+                font-weight: 600;
+                font-size: 18px;
+                color: #fff;
+                padding: 20px 12px;
+                transition: ease-in-out .3s;
+
+                
+
+                &:hover {
+                    cursor: pointer;
+                    background-color: #b98b5a;
+                }
+            }
+
+            p {
+                margin-top: 20px;
+                margin-bottom: 40px;
+                font-family: var(--font-family);
+                font-weight: 600;
+                font-size: 18px;
+                text-transform: uppercase;
+                color: #fff;
+
+                span:first-child {
+                    color: #c99e71;
+                }
+
+                span:last-child {
+                    text-decoration: line-through;
+                }
+            }
+
+
+
+        }
+    }
+
+}
