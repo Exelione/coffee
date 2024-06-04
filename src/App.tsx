@@ -1,7 +1,10 @@
 
 import './App.css'
+import { Banner } from './components/banner/Banner.tsx'
+import { Features } from './components/features/Features.tsx'
 import { Header } from './components/header/Header'
-import { Main } from './components/main/Main'
+import { History } from './components/history/History.tsx'
+import { MainProduct } from './components/mainProduct/MainProduct.tsx'
 
 function App() {
  
@@ -9,7 +12,10 @@ function App() {
   return (
     <>
     <Header/>
-    <Main/>
+    <Banner/>
+    <Features/>
+    <History/>
+    <MainProduct/>
     </>
     
   )

@@ -1,0 +1,183 @@
+.container {
+  max-width: 1340px;
+  margin: 0 auto;
+  padding: 0 10px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.sectionWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.sectionWrapper .allProduct {
+  -ms-flex-item-align: center;
+      align-self: center;
+  padding: 20px 36px;
+  width: 252px;
+  height: 62px;
+  background: #c99e71;
+  font-family: var(--third-family);
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fff;
+  -webkit-transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.3s;
+  margin-top: 56px;
+  margin-bottom: 140px;
+}
+.sectionWrapper .allProduct:hover {
+  cursor: pointer;
+  background-color: #b98b5a;
+}
+
+.productSection {
+  margin-top: 140px;
+}
+.productSection .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 12px;
+  margin-bottom: 56px;
+}
+.productSection .title h2 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 18px;
+  color: #c99e71;
+}
+.productSection .title h3 {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 130%;
+  color: #fff;
+}
+.productSection .cardWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 36px;
+}
+.productSection .cardWrapper .productCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #121315;
+  -webkit-transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.3s;
+}
+.productSection .cardWrapper .productCard:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+          transform: scale(1.05);
+}
+.productSection .cardWrapper .productCard:hover .coffeRait {
+  display: none;
+}
+.productSection .cardWrapper .productCard:hover p {
+  display: none;
+}
+.productSection .cardWrapper .productCard:hover button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.productSection .cardWrapper .productCard .mainProductImg {
+  padding: 48px 48px 36px 48px;
+}
+.productSection .cardWrapper .productCard .coffeRait {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+.productSection .cardWrapper .productCard .coffeRait h2 {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #c99e71;
+}
+.productSection .cardWrapper .productCard h3 {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.productSection .cardWrapper .productCard button {
+  margin: 38px auto 0;
+  display: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: none;
+  border: 0;
+  gap: 12px;
+  width: 169px;
+  height: 48px;
+  background: #c99e71;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  padding: 20px 12px;
+  -webkit-transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.3s;
+}
+.productSection .cardWrapper .productCard button:hover {
+  cursor: pointer;
+  background-color: #b98b5a;
+}
+.productSection .cardWrapper .productCard p {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.productSection .cardWrapper .productCard p span:first-child {
+  color: #c99e71;
+}
+.productSection .cardWrapper .productCard p span:last-child {
+  text-decoration: line-through;
+}
