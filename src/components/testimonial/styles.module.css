@@ -1,0 +1,172 @@
+.testimonialSection {
+  max-width: 1340px;
+  margin: 0 auto;
+  padding: 0 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 140px;
+}
+.testimonialSection h2 {
+  -ms-flex-item-align: center;
+      align-self: center;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 18px;
+  color: #c99e71;
+}
+.testimonialSection h3 {
+  -ms-flex-item-align: center;
+      align-self: center;
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 130%;
+  color: #fff;
+  margin-bottom: 56px;
+}
+.testimonialSection .testimonialWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+}
+.testimonialSection .testimonialWrapper .testimonial {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #1c1814;
+}
+.testimonialSection .testimonialWrapper .testimonial .testimonialInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 24px;
+  padding: 40px 40px 0 40px;
+}
+.testimonialSection .testimonialWrapper .testimonial .testimonialInfo img {
+  display: block;
+  width: 129px;
+  height: 149px;
+}
+.testimonialSection .testimonialWrapper .testimonial .testimonialInfo p {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 180%;
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 0.8);
+  opacity: 0.8;
+}
+.testimonialSection .testimonialWrapper .testimonial .testimonialRaiting {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 28px 40px 37px;
+}
+.testimonialSection .testimonialWrapper .testimonial .testimonialRaiting span {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 120%;
+  text-align: center;
+  color: #fff;
+}
+.testimonialSection .testimonialWrapper .testimonial .testimonialRaiting p {
+  display: block;
+  margin-top: 4px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 180%;
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 0.5);
+  opacity: 0.8;
+}
+.testimonialSection .testimonialWrapper .testimonial .testimonialRaiting .stars {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+.testimonialSection .testimonialAction {
+  margin: 36px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.testimonialSection .testimonialAction .count b {
+  display: block;
+  margin-bottom: 18px;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 135%;
+  color: #c99e71;
+}
+.testimonialSection .testimonialAction .count progress {
+  border-radius: 3px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 120px;
+  height: 4px;
+}
+.testimonialSection .testimonialAction .count progress::-webkit-progress-bar {
+  background-color: #2B2826;
+}
+.testimonialSection .testimonialAction .count progress::-webkit-progress-value {
+  background-color: #C99E71;
+}
+.testimonialSection .testimonialAction .count progress::-moz-progress-bar {
+  background: #C99E71;
+}
+.testimonialSection .testimonialAction .progressBtns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+}
+.testimonialSection .testimonialAction .progressBtns button {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: none;
+  background-color: #1c1814;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.testimonialSection .testimonialAction .progressBtns button:last-child {
+  background-color: #C99E71;
+  cursor: pointer;
+}
+.testimonialSection .testimonialAction .progressBtns button:last-child span {
+  color: #010102;
+}
+.testimonialSection .testimonialAction .progressBtns button:last-child:hover {
+  background-color: #b98b5a;
+}
