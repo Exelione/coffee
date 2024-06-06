@@ -12,18 +12,13 @@
     grid-template-rows: repeat(1fr, 2);
     gap: 32px;
     align-items: stretch;
-    // img {
-    //     max-width: 298px;
-    //     max-height: 301px;
-
-    // }
+  
     img:first-child {
         grid-column: 1/2;
         grid-row: 1/2;
     }
 
     img:nth-child(2) {
-        // max-height: 635px;
         grid-column: 2/3;
         grid-row: 1/3;
     }

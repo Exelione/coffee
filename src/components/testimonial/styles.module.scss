@@ -1,0 +1,157 @@
+.testimonialSection {
+    max-width: 1340px;
+    margin: 0 auto;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 140px;
+
+    h2 {
+        align-self: center;
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 18px;
+        color: #c99e71;
+    }
+
+    h3 {
+        align-self: center;
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 130%;
+        color: #fff;
+        margin-bottom: 56px;
+    }
+
+    .testimonialWrapper {
+        display: flex;
+        gap: 40px;
+
+        .testimonial {
+            display: flex;
+            flex-direction: column;
+            background: #1c1814;
+
+            .testimonialInfo {
+                display: flex;
+                align-items: flex-start;
+                gap: 24px;
+                padding: 40px 40px 0 40px;
+
+                img {
+                    display: block;
+                    width: 129px;
+                    height: 149px;
+                }
+
+                p {
+                    font-family: var(--font-family);
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 180%;
+                    text-transform: capitalize;
+                    color: rgba(255, 255, 255, 0.8);
+                    opacity: 0.8;
+                }
+            }
+
+            .testimonialRaiting {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 28px 40px 37px;
+
+                span {
+                    font-family: var(--font-family);
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 120%;
+                    text-align: center;
+                    color: #fff;
+                }
+
+                p {
+                    display: block;
+                    margin-top: 4px;
+                    font-family: var(--font-family);
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 180%;
+                    text-transform: capitalize;
+                    color: rgba(255, 255, 255, 0.5);
+                    opacity: 0.8;
+                }
+
+                .stars {
+                    align-self: flex-end;
+                }
+            }
+        }
+    }
+
+    .testimonialAction {
+        margin: 36px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .count {
+
+            b {
+                display: block;
+                margin-bottom: 18px;
+                font-family: var(--font-family);
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 135%;
+                color: #c99e71;
+            }
+
+            progress {
+                border-radius: 3px;
+                appearance: none;
+                width: 120px;
+                height: 4px;
+
+                &::-webkit-progress-bar {
+                    background-color: #2B2826;
+                }
+
+                &::-webkit-progress-value {
+                    background-color: #C99E71;
+                }
+
+                &::-moz-progress-bar {
+                    background: #C99E71;
+                }
+            }
+        }
+
+        .progressBtns {
+            
+            display: flex;
+            gap: 16px;
+            button{
+                width: 56px;
+                height: 56px;
+                border-radius: 50%;
+                border: none;
+                background-color: #1c1814;
+                transition: .3s ease-in-out;
+                
+                &:last-child{
+                    background-color:#C99E71;
+                    cursor: pointer;
+                    span{
+                        color: #010102;
+                    }
+                    &:hover{
+                        background-color: #b98b5a;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,73 @@
+.coffeeMachine {
+  max-width: 1340px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #1c1814;
+  gap: 160px;
+  margin-bottom: 140px;
+}
+.wrapper img {
+  margin: 86px 0 85px 169px;
+}
+.wrapper .coffeeMachineInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 36px;
+}
+.wrapper .coffeeMachineInfo h2 {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 130%;
+  color: #fff;
+}
+.wrapper .coffeeMachineInfo h3 {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 180%;
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 0.8);
+  opacity: 0.8;
+  margin-right: 89px;
+}
+.wrapper .coffeeMachineInfo button {
+  border: none;
+  padding: 20px 36px;
+  width: 215px;
+  height: 62px;
+  background: #c99e71;
+  font-family: var(--third-family);
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fff;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.wrapper .coffeeMachineInfo button:hover {
+  cursor: pointer;
+  background-color: #b98b5a;
+}
