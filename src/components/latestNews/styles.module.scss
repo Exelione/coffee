@@ -1,0 +1,100 @@
+.latestNews {
+    max-width: 1340px;
+    margin: 0 auto;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 140px;
+
+    h2 {
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 18px;
+        color: #c99e71;
+    }
+
+    h3 {
+        padding-top: 12px;
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 130%;
+        color: #fff;
+    }
+
+    .wrapper {
+        display: flex;
+        gap: 36px;
+        padding-top: 56px;
+        width: 100%;
+        justify-content: space-between;
+
+        .newsCard {
+           
+
+            display: flex;
+            flex-direction: column;
+            transition: .3s ease-in-out;
+            background: #1c1814;
+            img{
+                display: block;
+            }
+
+            .cardTittle {
+
+                display: flex;
+                justify-content: space-between;
+                padding: 20px 24px 16px;
+
+                span, time {
+                    display: flex;
+                    font-family: var(--font-family);
+                    font-weight: 500;
+                    font-size: 18px;
+                    color: #fff;
+
+                    span{
+                        color: #c99e71;
+                    }
+                }
+            }
+
+            .cardInfo {
+                padding-left: 24px;
+                font-family: var(--second-family);
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 150%;
+                text-transform: capitalize;
+                color: #fff;
+            }
+
+            a {
+                padding: 32px 24px 24px;
+                display: flex;
+                align-items: center;
+                font-family: var(--font-family);
+                font-weight: 500;
+                font-size: 16px;
+                color: #c99e71;
+                gap: 10px;
+                
+
+                span {
+                    color: #c99e71;
+                    
+                }
+
+                &:hover {
+                    cursor: pointer;
+                   
+                }
+            }
+            &:hover{
+                transform: scale(1.1);
+                
+            }
+        }
+    }
+}

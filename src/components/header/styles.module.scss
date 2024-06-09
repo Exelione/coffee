@@ -34,11 +34,13 @@
 .header_list {
     font: 400 18px var(--third-family);
     gap: 48px;
+    
 
     a {
+        transition: .3s ease-in-out;
         &:hover {
             color: #c99e71;
-            transition: .3s ease-in-out;
+           
         }
     }
 
@@ -55,10 +57,9 @@
 
     span {
         font-size: 30px;
-
+        transition: .3s ease-in-out;
         &:hover {
             color: #c99e71;
-            transition: .3s ease-in-out;
         }
     }
 }
